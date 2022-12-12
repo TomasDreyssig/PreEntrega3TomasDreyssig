@@ -8,11 +8,12 @@
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(2, 2fr);
-    grid-template-areas:
-    "ropa1 ropa2 "
-    "ropa3 ropa4 "
-    "ropa5  ropa6"
-    ;
+    grid-template-areas: 
+    "ropa1 ropa2"
+    "ropa3 ropa4"
+    "ropa5  ropa6 ";
+   
+
     justify-content: center;
     align-items: center;
     margin-right: 28%;

@@ -2,22 +2,9 @@ $hcolor:black;
 $pcolor: rgb(77, 77, 77); 
 $pdisplay: flex;
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*Mixin*/
-
+/*mixin*/
 @mixin margin {
-    margin-top: ($size);
+    margin-top:($size);
 }
 
 /*mixin sizes*/
