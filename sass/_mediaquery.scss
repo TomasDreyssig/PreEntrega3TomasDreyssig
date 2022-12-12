@@ -1,0 +1,69 @@
+/*media query para dispositivos pequeños Artistas*/
+@media screen and (max-width:576px) {
+
+    .container img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/*media query para dispositivos medianos Artistas*/
+
+@media screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    .container img {
+        @include sizes (274px,250px);
+        margin-left: 30px;
+
+
+    }
+
+}
+
+/*media query para dispositivos medianos Festivales */
+
+@media screen and (max-width:768px) {
+    .container-fiesta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+
+
+    }
+
+    .fotofesti {
+        @include sizes (500px,350px);
+        
+    }
+}
+
+/*media query para dispositivos pequeños Festivales */
+@media screen and (max-width:576px) {
+    .container-fiesta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotofesti {
+        @include sizes (350px,150px);
+        margin-left: 10%;
+        justify-content: left
+    }
+
+}

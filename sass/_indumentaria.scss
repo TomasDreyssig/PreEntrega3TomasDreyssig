@@ -1,0 +1,16 @@
+.ropa {
+    @include sizes (700px, 450px);
+    
+}
+
+
+.container-ind {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 28%;
+
+}
+

@@ -1,0 +1,26 @@
+.fotofesti {
+    @include sizes (700px, 450px);
+    
+}
+
+
+.container-fiesta {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 28%;
+
+}
+
+.container-fiesta {
+    transition: all 200ms;
+    position: relative;
+}
+
+.container-fiesta :hover {
+    transform: scale(1.15);
+}
+
+
