@@ -1,21 +1,17 @@
+
 .ropa {
     @include sizes (700px, 450px);
-    
 }
 
-
-.container-ind {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(2, 2fr);
+.div.row.row-cols-2 {
+    display:grid;
     justify-content: center;
     align-items: center;
-    margin-right: 28%;
-    grid-template-areas:
-    "remera1 remera2" 
-    "remera3 gorra"
-    "abanico medias";
+    margin-right: 5rem;
+   
 
-    
+   
+
 }
+
 
