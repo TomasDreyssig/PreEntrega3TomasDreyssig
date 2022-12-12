@@ -1,13 +1,14 @@
 
 .ropa {
     @include sizes (700px, 450px);
+    margin-left: -27px;
 }
 
 .div.row.row-cols-2 {
     display:grid;
     justify-content: center;
     align-items: center;
-    margin-right: 5rem;
+    margin-right: 20rem;
    
 
    
