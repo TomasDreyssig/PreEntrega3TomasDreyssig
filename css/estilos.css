@@ -34,9 +34,7 @@ footer {
 }
 
 .loguito {
-  margin-left: 489px;
-  margin-top: 200px;
-  align-items: center;
+  margin-left: 18px;
 }
 
 h1 {
@@ -64,6 +62,7 @@ h2 {
   justify-content: flex-start;
   font-size: 190%;
   font-family: "Source Sans Pro", sans-serif;
+  margin-left: 12px;
 }
 
 h3 {
@@ -81,6 +80,7 @@ p {
   color: rgb(77, 77, 77);
   font-size: 135%;
   font-family: "Source Sans Pro", sans-serif;
+  margin-left: 6px;
 }
 
 .segundoparrafo {
