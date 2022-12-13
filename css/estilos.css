@@ -33,9 +33,10 @@ footer {
   margin-top: 3%;
 }
 
-.loguito a {
-  display: flex;
-  align-items: flex-end;
+.loguito {
+  margin-left: 489px;
+  margin-top: 200px;
+  align-items: center;
 }
 
 h1 {
