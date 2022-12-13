@@ -239,6 +239,9 @@ img {
 }
 /*media query para dispositivos pequeños indumentaria*/
 @media screen and (max-width: 576px) {
+  .navegacion {
+    justify-content: space-between;
+  }
   .ropa {
     height: 375px;
   }
