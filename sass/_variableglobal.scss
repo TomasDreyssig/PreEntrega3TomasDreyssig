@@ -3,12 +3,14 @@ $pcolor: rgb(77, 77, 77);
 $pdisplay: flex;
 
 /*mixin*/
+
 @mixin margin {
-    
+
     margin-top:($size);
 }
 
 /*mixin sizes*/
+
 @mixin sizes ($width, $height) {
     width: $width;
     height: $height;
