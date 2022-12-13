@@ -242,8 +242,6 @@ img {
   .navegacion {
     display: flex;
     flex-direction: column;
-    -webkit-text-decoration: dotted;
-            text-decoration: dotted;
   }
   .ropa {
     height: 375px;
