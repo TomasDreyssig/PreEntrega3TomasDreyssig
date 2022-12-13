@@ -1,4 +1,6 @@
 .ropa {
-    margin-left: -27px;
-    
+    @include sizes (677px, 558px);
+    margin-left: 70px;
+    margin-right: 200px;
+
 }
