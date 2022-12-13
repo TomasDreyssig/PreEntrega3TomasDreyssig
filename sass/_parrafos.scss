@@ -1,6 +1,6 @@
 p {
     @include margin (3%);
-    
+
     display: $pdisplay;
     justify-content: right;
     color: $pcolor;
@@ -12,6 +12,7 @@ p {
 
 .segundoparrafo {
         @include margin (3%);
+
         display: $pdisplay;
         justify-content: right;
         color: $pcolor;
@@ -21,7 +22,8 @@ p {
     }
 
     .parrafofoto {
-        @include margin (3%);
+        @include margin (3%); 
+
         display: $pdisplay;
         justify-content: flex-start;
     }
@@ -34,6 +36,7 @@ p {
 
     .pfestival a {
         @include margin (2%);
+        
         display: $pdisplay;
         justify-content: flex-start;
         text-decoration: dashed;
