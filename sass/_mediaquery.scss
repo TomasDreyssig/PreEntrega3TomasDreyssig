@@ -1,22 +1,81 @@
 /*media query para dispositivos medianos Home*/
 @media screen and (max-width: 765px) {
 
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
     img {
         width: 100%;
-        margin-right: 180px;
+        height: 20%;
+        margin-left: -60px;
+        
+        
     }
+}
+
+@media screen and (max-width: 576px) {
+
+    img {
+        width: 100%;
+        margin-left: -60px;
+        
+    }
+
 }
 
 
 
 
+/*media query para dispositivos medianos Fotografias*/
+@media screen and (max-width: 765px) {
+
+    .container-fotos {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 74px;
+    
+    }
+}
+
+
+/*media query para disposivos pequeños Fotografias*/
+@media screen and (max-width: 576px) {
+
+    .container-fotos {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 74px;
+    
+    }
+}
 
 
 
+/*memdia query para dispositivos medianos indumentaria*/
+@media screen and (max-width: 765px) {
 
+    .ropa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        width: 100%;      
+    }
 
-
-
+    .container-ind {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-content: center;
+    }
+}
 
 
 
