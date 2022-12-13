@@ -4,7 +4,7 @@ $pdisplay: flex;
 
 /*mixin*/
 
-@mixin margin {
+@mixin margin ($size) {
 
     margin-top: $size;
 }
