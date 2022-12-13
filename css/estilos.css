@@ -240,7 +240,8 @@ img {
 /*media query para dispositivos pequeños indumentaria*/
 @media screen and (max-width: 576px) {
   .navegacion {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
   .ropa {
     height: 375px;
