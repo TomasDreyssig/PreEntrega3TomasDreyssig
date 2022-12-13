@@ -233,7 +233,14 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    flex-wrap: nowrap;
+    margin-right: 120px;
+  }
+}
+/*media query para dispositivos pequeños indumentaria*/
+@media screen and (max-width: 576px) {
+  .ropa {
+    height: 375px;
   }
 }
 /*media query para dispositivos pequeños Artistas*/
